@@ -1,0 +1,72 @@
+diff --git a/capitulos/..HEAD b/capitulos/..HEAD
+new file mode 100644
+index 0000000..e69de29
+diff --git a/capitulos/capitulo1.txt b/capitulos/capitulo1.txt
+new file mode 100644
+index 0000000..cdced15
+--- /dev/null
++++ b/capitulos/capitulo1.txt
+@@ -0,0 +1 @@
++Git es un sistema de control de versiones ideado por Linus Torvalds
+diff --git a/capitulos/capitulo2.txt b/capitulos/capitulo2.txt
+new file mode 100644
+index 0000000..0b60cc1
+--- /dev/null
++++ b/capitulos/capitulo2.txt
+@@ -0,0 +1 @@
++El flujo de trabajo básico con git consiste en:1-Hacer cambios en el repositorio.2.-Añadir los cambios a la zona de intercambio temporal.3.-Hacer un commit de los cambios
+\ No newline at end of file
+diff --git a/capitulos/capitulo3.txt b/capitulos/capitulo3.txt
+new file mode 100644
+index 0000000..bcbee16
+--- /dev/null
++++ b/capitulos/capitulo3.txt
+@@ -0,0 +1 @@
++Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultánea en ellas.
+diff --git a/cat b/cat
+new file mode 100644
+index 0000000..e69de29
+diff --git a/indice.txt b/indice.txt
+new file mode 100644
+index 0000000..5aa7f7e
+--- /dev/null
++++ b/indice.txt
+@@ -0,0 +1,4 @@
++Capítulo 1:Introducción a Git
++Capítulo 2:Flujo de trabajo básico
++Capítulo 3:Gestión de ramas
++Capítulo 4:Repositorios remotos
+diff --git a/readme.md b/readme.md
+new file mode 100644
+index 0000000..e771247
+--- /dev/null
++++ b/readme.md
+@@ -0,0 +1,28 @@
++<h1 align="center"> Primer Commit </h1>
++
++![Logo github](https://github.com/pablolopezx/DWES/assets/145000433/c83932eb-5344-431b-b795-87787e0e1eee)
++
++##Índice
++
++*[Características](#Características)
++
++*[Requisitos](#Requisitos)
++
++*[Funcionalidades](#Funcionalidades)
++
++
++##Características
++<p>En este proyecto empezamos con las operaciones básicas en git, hasta realizar nuestro primer commit</p>
++
++##Requisitos
++<p>Necesitamos tener instalada una máquina virtual de Debian</p>
++
++##Funcionalidades
++<p>1.-Crear un repositorio</p>
++<p>2.-Clonar el repositorio</p>
++<p>3.-Cambiar el readme.md</p>
++<p>4.-Hacer el primer commit en la rama main</p>
++
++
++
++
