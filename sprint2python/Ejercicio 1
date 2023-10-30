@@ -1,0 +1,12 @@
+print (
+    "Quien lo fabrica, no lo necesita. Quien lo compra, no lo necesita. Quien lo usa, no lo ve ni lo siente. ¿Qué es?"
+
+    "a)Un bolígrafo"
+    "b)Un ataúd"
+    "c)Un pollo"
+)
+respuesta = input( "tu respuesta? (a,b,c)")
+if respuesta == "b":
+    print("Respuesta Correcta")
+else: print("Respuesta Incorrecta")
+
